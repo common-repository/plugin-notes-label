@@ -1,0 +1,59 @@
+/*	
+	wpgear.xyz
+	Plugin Notes Label
+	option-style.css
+*/
+.pluginnotelabel_warning {
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+    font-weight: normal;
+    color: #000000;
+    border-left: 4px solid orange;
+    background-color: rgba(199, 198, 195, 0.14);
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+.pluginnotelabel_options_box {
+	margin-left: 40px;
+}
+.pluginnotelabel_options_download {
+	
+}
+.pluginnotelabel_message_box {
+	display: none;
+    padding: 10px;
+    font-size: medium;
+    font-weight: normal;
+    color: #000000;
+	border-radius: 4px;
+	margin: 20px;	
+}
+.pluginnotelabel_message_error {
+    border-left: 4px solid red; 
+	background-color: white;	
+}
+.pluginnotelabel_message_warning {
+    border-left: 4px solid orange;
+	background-color: white;
+}
+.pluginnotelabel_message_success {
+    border-left: 4px solid green;
+	background-color: white;
+}
+.pluginnotelabel_confirm_clear_box {
+	width: 200px;
+	text-align: center;
+    position: absolute;
+    left: calc(50% - 100px);  
+	padding: 10px;
+    background: coral;
+    border-radius: 5px;	
+}
+.pluginnotelabel_confirm_clear_box_title {
+	margin-bottom: 10px; 
+	font-weight: bold;
+}
+.pluginnotelabel_indicator_processing_clear {
+	color: white;
+}
